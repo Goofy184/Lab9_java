@@ -43,7 +43,8 @@ public class Main {
     private static void closeStream(InputStream inputStream) {
         try {
             inputStream.close();
-        } catch (IOException e) {
+        } catch (IOException e)
+        {
             e.printStackTrace();
         }
     }
